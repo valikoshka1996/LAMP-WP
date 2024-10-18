@@ -11,4 +11,9 @@ Basic BASH script for install LAMP stack + latest version Wordpress in default a
    ```bash
    chmod +x install_lamp_wordpress.sh
 3. Run the script
-   ``` ./install_lamp_wordpress.sh
+   `./install_lamp_wordpress.sh`
+   
+## **Note**
+
+You can change DB_USER and DB_PASS to your preferred values.
+The script installs MySQL without a password for the root user. It is recommended to further configure security.
